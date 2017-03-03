@@ -14,10 +14,21 @@
 		48321E6E1C4950890061A8FB /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48321E6D1C4950890061A8FB /* fhconfig.plist */; };
 		48321E721C4950A00061A8FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48321E711C4950A00061A8FB /* main.m */; };
 		8818ACF51E6443A80016B0DD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8818ACF41E6443A80016B0DD /* Launch Screen.storyboard */; };
+		88D65AF71E69780700E36C11 /* helloworld_ios_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D65AF61E69780700E36C11 /* helloworld_ios_appUITests.swift */; };
 		AD5D7E500D3C1D5215B46B21 /* libPods-helloworld-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEC0604C6927859A5DDA60D /* libPods-helloworld-ios-app.a */; };
 		F2E35ECF190A960F00F08BC6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E35ECE190A960F00F08BC6 /* libz.dylib */; };
 		F2E35EDB190A9B3400F08BC6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E35EDA190A9B3400F08BC6 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88D65AF91E69780700E36C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E35E88190A8BB800F08BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E35E8F190A8BB800F08BC6;
+			remoteInfo = "helloworld-ios-app";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0EEC0604C6927859A5DDA60D /* libPods-helloworld-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-helloworld-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +43,9 @@
 		48321E711C4950A00061A8FB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "helloworld-ios-app/main.m"; sourceTree = SOURCE_ROOT; };
 		48321E731C4950A70061A8FB /* helloworld-ios-app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "helloworld-ios-app-Prefix.pch"; path = "helloworld-ios-app/helloworld-ios-app-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		8818ACF41E6443A80016B0DD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		88D65AF41E69780700E36C11 /* helloworld-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "helloworld-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D65AF61E69780700E36C11 /* helloworld_ios_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworld_ios_appUITests.swift; sourceTree = "<group>"; };
+		88D65AF81E69780700E36C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A752CB58B24942AC2578F50 /* Pods-helloworld-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloworld-ios-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloworld-ios-app/Pods-helloworld-ios-app.release.xcconfig"; sourceTree = "<group>"; };
 		E8C626CA5F9BD7057C84B57E /* Pods-helloworld-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloworld-ios-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloworld-ios-app/Pods-helloworld-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
 		F2E35E90190A8BB800F08BC6 /* helloworld-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "helloworld-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		88D65AF11E69780700E36C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2E35E8D190A8BB800F08BC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88D65AF51E69780700E36C11 /* helloworld-ios-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88D65AF61E69780700E36C11 /* helloworld_ios_appUITests.swift */,
+				88D65AF81E69780700E36C11 /* Info.plist */,
+			);
+			path = "helloworld-ios-appUITests";
+			sourceTree = "<group>";
+		};
 		AFA3C40E867197E4F7DF3E15 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F2E35E99190A8BB800F08BC6 /* helloworld-ios-app */,
+				88D65AF51E69780700E36C11 /* helloworld-ios-appUITests */,
 				F2E35E92190A8BB800F08BC6 /* Frameworks */,
 				F2E35E91190A8BB800F08BC6 /* Products */,
 				AFA3C40E867197E4F7DF3E15 /* Pods */,
@@ -84,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				F2E35E90190A8BB800F08BC6 /* helloworld-ios-app.app */,
+				88D65AF41E69780700E36C11 /* helloworld-ios-appUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +162,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		88D65AF31E69780700E36C11 /* helloworld-ios-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D65AFD1E69780700E36C11 /* Build configuration list for PBXNativeTarget "helloworld-ios-appUITests" */;
+			buildPhases = (
+				88D65AF01E69780700E36C11 /* Sources */,
+				88D65AF11E69780700E36C11 /* Frameworks */,
+				88D65AF21E69780700E36C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D65AFA1E69780700E36C11 /* PBXTargetDependency */,
+			);
+			name = "helloworld-ios-appUITests";
+			productName = "helloworld-ios-appUITests";
+			productReference = 88D65AF41E69780700E36C11 /* helloworld-ios-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F2E35E8F190A8BB800F08BC6 /* helloworld-ios-app */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2E35EBC190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "helloworld-ios-app" */;
@@ -156,9 +206,15 @@
 		F2E35E88190A8BB800F08BC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = FeedHenry;
 				TargetAttributes = {
+					88D65AF31E69780700E36C11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2E35E8F190A8BB800F08BC6;
+					};
 					F2E35E8F190A8BB800F08BC6 = {
 						ProvisioningStyle = Automatic;
 					};
@@ -177,11 +233,19 @@
 			projectRoot = "";
 			targets = (
 				F2E35E8F190A8BB800F08BC6 /* helloworld-ios-app */,
+				88D65AF31E69780700E36C11 /* helloworld-ios-appUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		88D65AF21E69780700E36C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2E35E8E190A8BB800F08BC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +308,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		88D65AF01E69780700E36C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D65AF71E69780700E36C11 /* helloworld_ios_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2E35E8C190A8BB800F08BC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,7 +328,52 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		88D65AFA1E69780700E36C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E35E8F190A8BB800F08BC6 /* helloworld-ios-app */;
+			targetProxy = 88D65AF91E69780700E36C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		88D65AFB1E69780700E36C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = "helloworld-ios-appUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feedhenry.helloworld-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "helloworld-ios-app";
+			};
+			name = Debug;
+		};
+		88D65AFC1E69780700E36C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "helloworld-ios-appUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feedhenry.helloworld-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "helloworld-ios-app";
+			};
+			name = Release;
+		};
 		F2E35EBA190A8BB800F08BC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -395,6 +512,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		88D65AFD1E69780700E36C11 /* Build configuration list for PBXNativeTarget "helloworld-ios-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D65AFB1E69780700E36C11 /* Debug */,
+				88D65AFC1E69780700E36C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F2E35E8B190A8BB800F08BC6 /* Build configuration list for PBXProject "helloworld-ios-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
